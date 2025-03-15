@@ -1,0 +1,13 @@
+FROM grafana/grafana:latest
+
+COPY dashboard.json dashboard.json
+
+COPY datasource.yaml datasource.yaml
+COPY dashboard.yaml dashboard.yaml
+
+ENV GF_SECURITY_ADMIN_USER=admin
+ENV GF_SECURITY_ADMIN_PASSWORD=admin
+
+ENV GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH=dashboard.json
+
+EXPOSE 3001

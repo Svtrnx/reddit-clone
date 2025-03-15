@@ -11,7 +11,7 @@ export default defineConfig({
     },
   },
   server: {
-    allowedHosts: ['reddit-app.site'],
+    allowedHosts: ['threadit.site'],
     host: true,
     port: 5173,
     watch: {
