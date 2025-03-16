@@ -151,4 +151,5 @@ app.use('/api/v1/health', healthRoutes);    // Health checks
   <p>Deployed on Google Cloud Platform</p>
   <img src="https://img.shields.io/badge/Made%20with-TypeScript-3178C6?style=for-the-badge&logo=typescript" alt="Made with TypeScript">
   <img src="https://img.shields.io/badge/Monitored%20with-Prometheus-E6522C?style=for-the-badge&logo=prometheus" alt="Monitored with Prometheus">
-  <img src="https://img.shields.io/badge/Visualized%20with-Grafana-F46800?style=for-the-badge&logo=grafana" alt="Visualized with Gra
+  <img src="https://img.shields.io/badge/Visualized%20with-Grafana-F46800?style=for-the-badge&logo=grafana" alt="Visualized with Grafana">
+</div>
